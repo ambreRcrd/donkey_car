@@ -1,4 +1,4 @@
-# Raspberry Pi Data
+ # Raspberry Pi Data
 - **IP Address:** 192.168.1.207
 - **User:** pi  
 - **Password:** ky”tefwu
@@ -6,6 +6,8 @@
 # Downloading and Setting Up the Simulation
 
 This project was developed on a MacOS M1 using Unity. It is likely to work on Linux as well. If there are issues, consider using Unity on Linux. The benefit of using Unity is that you can run the same code in both simulated and real environments.
+
+A good guide can be found here: https://github.com/tawnkramer/sdsandbox
 
 ## Steps to Download the Simulation
 
@@ -58,7 +60,7 @@ This project was developed on a MacOS M1 using Unity. It is likely to work on Li
 8. **Modify `myconfig.py` as Needed:**
     ```python
     DONKEY_GYM = True
-    DONKEY_SIM_PATH = "/home/<user-name>/projects/DonkeySimLinux/donkey_sim.x86_64"
+    DONKEY_SIM_PATH = "./sdsandbox/sdsim/Builds/DonkeySimMac/donkey_sim.app/Contents/MacOS/donkey_sim" # or use "remote" if you start manually the simulation
     DONKEY_GYM_ENV_NAME = "donkey-waveshare-v0"
     ```
 
@@ -73,7 +75,7 @@ This project was developed on a MacOS M1 using Unity. It is likely to work on Li
     ```python
     import gym_donkeycar
     import gym
-    env = gym.make('donkey-mountain-track-v0')
+    env = gym.make('donkey-waveshare-v0')
     ```
 
 3. **Reset the Car:**
@@ -175,8 +177,39 @@ Another nice interface is the donkey ui one. It is particularly interesting when
     !pip install tf-nightly
     !pip install -q --upgrade keras-nlp
     !pip install -q -U keras>=3
-    pip install tf_keras
-    pip install tf-nightly
-    pip install -q --upgrade keras-nlp
-    pip install -q -U keras>=3
+
+## Train a Simulated Model
+
+1. Create an empty folder at `sdsandbox/sdsim/log/`.
+2. Complete clean laps using `Joystick/Keyboard w Rec` in both directions.
+3. After each interruption, go to `sdsandbox/src` and run:
+
+    ```bash
+    python prepare_data.py
+    ```
+
+4. Repeat the process at least 5 times to gather enough data.
+5. Train the model:
+
+    ```bash
+    python train.py --model='../outputs/model_name.keras'
+    ```
+
+Then, to test it:
+```bash
+python predict_client.py --model='../outputs/model_name.keras'
+```
+
+## Train a Real Model
+1. Control the car with the remote:
+    ```bash
+    python manage.py --js
+    ```
+2. When you feel confidant enough to do clean laps, start recording (button B on the remote)
+3. Pull the data from the Pi to your PC (donkey ui makes it simple)
+4. Train the model on your PC (donkey ui)
+5. Push back the trained model to the Pi (donkey ui)
+6. Test it:
+    ```bash
+    python manage.py drive --model=path_to_model --type=tflite_linear
     ```

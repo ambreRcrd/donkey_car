@@ -1,140 +1,182 @@
-# SdSandbox
+# Raspberry Pi Data
+- **IP Address:** 192.168.1.207
+- **User:** pi  
+- **Password:** ky”tefwu
 
-Self Driving Car Sandbox
+# Downloading and Setting Up the Simulation
 
+This project was developed on a MacOS M1 using Unity. It is likely to work on Linux as well. If there are issues, consider using Unity on Linux. The benefit of using Unity is that you can run the same code in both simulated and real environments.
 
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/e0AFMilaeMI/0.jpg)](https://www.youtube.com/watch?v=e0AFMilaeMI "self driving car sim")
+## Steps to Download the Simulation
 
+1. **Clone the Repository:**
+    ```bash
+    cd ~/projects
+    git clone https://github.com/tawnkramer/gym-donkeycar
+    cd gym-donkeycar
+    conda activate donkey
+    pip install -e .[gym-donkeycar]
+    ```
 
-## Summary
+2. **Set Up the Donkey Environment:**
+    ```bash
+    conda create -n donkey python=3.11
+    conda activate donkey
+    ```
 
-Use Unity 3d game engine to simulate car physics in a 3d world.
-Generate image steering pairs to train a neural network. Uses NVidia PilotNet NN topology.
-Then validate the steering control by sending images to your neural network and feed steering back into the simulator to drive.
+3. **Install DonkeyCar:**
+    - For PC:
+        ```bash
+        pip install donkeycar[pc]
+        ```
+    - For Mac:
+        ```bash
+        pip install donkeycar[macos]
+        ```
 
-## Some videos to help you get started
+4. **Create a New Car Project:**
+    ```bash
+    donkey createcar --path ~/mycar
+    ```
 
-### Training your first network
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/oe7fYuYw8GY/0.jpg)](https://www.youtube.com/watch?v=oe7fYuYw8GY "Getting Started w sdsandbox")
+5. **Download the Simulation:**
+    - [Donkey Simulator Download Link](https://github.com/tawnkramer/gym-donkeycar/releases/)
 
-### World complexity
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/FhAKaH3ysow/0.jpg)](https://www.youtube.com/watch?v=FhAKaH3ysow "Making a more interesting world.")
+6. **Install Unity:**
+   - Download and install the Unity version corresponding to the simulation version (2020.3.4f1 was used for this project).
 
-### Creating a robust training set
+7. **Modify the Simulation in Unity:**
+    - Open the simulation editor in Unity.
+    - Make any desired modifications. For reinforcement learning, it is especially important to enable the side buttons:
+        - Joystick/Keyboard No Rec
+        - Joystick/Keyboard w Rec
+        - Auto Drive w Rec
+        - Auto Drive No Rec
+        - NN Control over Network
+    - Once satisfied with the modifications, build the simulation and place it in `sdsandbox/sdsim/`.
 
-[![IMAGE ALT TEXT](https://img.youtube.com/vi/_h8l7qoT4zQ/0.jpg)](https://www.youtube.com/watch?v=_h8l7qoT4zQ "Creating a robust sdc.")
+8. **Modify `myconfig.py` as Needed:**
+    ```python
+    DONKEY_GYM = True
+    DONKEY_SIM_PATH = "/home/<user-name>/projects/DonkeySimLinux/donkey_sim.x86_64"
+    DONKEY_GYM_ENV_NAME = "donkey-waveshare-v0"
+    ```
 
-## Setup
+# Useful Commands for Running the Simulation
 
-You need to have [Unity](https://unity3d.com/get-unity/download) installed, and all python modules listed in the Requirements section below.
+1. **Start the Python Environment:**
+    ```bash
+    python3
+    ```
 
-Linix Unity install [here](https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/). Check last post in this thread.
+2. **Initialize the Simulation Environment:**
+    ```python
+    import gym_donkeycar
+    import gym
+    env = gym.make('donkey-mountain-track-v0')
+    ```
 
-You need python 3.4 or higher, 64 bit. You can create a virtual env if you like:
-```bash
-virtualenv -p python3 env
-source env/bin/activate
-```
+3. **Reset the Car:**
+    ```python
+    obs = env.reset()
+    ```
 
-And then you can install the dependancies. This installs a specific version of keras only because it will allow you to load the pre-trained model with fewer problems. If not an issue for you, you can install the latest keras.
-```bash
-pip install -r requirements.txt
-```
+4. **Display the Camera View in a Window:**
+    ```python
+    cv2.imshow('test', obs)
+    cv2.waitKey(0)
+    ```
 
-This will install [Donkey Gym](https://github.com/tawnkramer/donkey_gym) and [Donkey Car](https://github.com/tawnkramer/donkey) packages from source.
+5. **Convert BGR to RGB:**
+    ```python
+    cv2.imshow('test', obs[:,:,::-1])
+    cv2.waitKey(-1)
+    ```
 
-Note: Tensorflow >= 1.10.1 is required
+6. **Reset the Circuit in the Car:**
+    ```bash
+    kill %1
+    ```
 
-If you have an cuda supported GPU - probably NVidia
-```bash
-pip install tensorflow-gpu
-```
+7. **Simulate a Step:**
+    ```python
+    obs, reward, done, infos = env.step([a, b])
+    ```
+    - `a`: steering
+    - `b`: throttle
+    - `reward`: calculated based on the centerline.
+    - `done`: status of the simulation (True/False).
+    - `infos`: additional information.
 
-Or without a supported gpu
-```bash
-pip install tensorflow
-```
+8. **Close the Environment:**
+    ```python
+    env.close()
+    ```
 
+9. **Train a Model Using PPO:**
+    ```python
+    from stable_baselines3 import PPO
+    model = PPO('CnnPolicy', env, verbose=1)
+    model = PPO('CnnPolicy', env, n_steps=200, verbose=1)
+    model.learn(10_000)
+    ```
 
-## Demo
+# Python Scripts
 
-1) Load the Unity project sdsandbox/sdsim in Unity. Double click on Assets/Scenes/road_generator to open that scene.  
+- **`manage.py`:** Use this script to launch the simulation or control the real car with various options.
+    ```bash
+    Usage:
+    manage.py (drive) [--model=<model>] [--js] [--type=(linear|categorical)] [--camera=(single|stereo)] [--meta=<key:value> ...] [--myconfig=<filename>]
+    manage.py (train) [--tubs=tubs] (--model=<model>) [--type=(linear|inferred|tensorrt_linear|tflite_linear)]
+    ```
 
-2) Hit the start button to launch. Then the "Use NN Steering". When you hit this button, the car will disappear. This is normal. You will see one car per client that connects.
+- **Additional Scripts:**
+    - `python for_pid.py drive`
+    - `python for_mpc.py drive`
 
-3) Start the prediction server with the pre-trained model.
+# Usefull tips
+To have a real-time view of what the camera captures and to control the car (both in simulation and the real car), once manage.py drive is launched, you can go to http://localhost:8887/drive if you are using the simulation, or http://192.168.1.207:8887/drive for the real car.
 
-```bash
-cd sdsandbox/src
-python predict_client.py --model=../outputs/highway.h5
-```
- If you get a crash loading this model, you will not be able to run the demo. But you can still generate your own model. This is a problem between tensorflow/keras versions.
+This is useful for choosing how to control the car or test a controller: you can either control the car with the keyboard, joystick, or use the controller designed to automate it. The Python scripts I made directly utilize the automation mode.
 
- Note* You can start multiple clients at the same time and you will see them spawn as they connect.
+Another nice interface is the donkey ui one. It is particularly interesting when dealing with the reinforcement learninig. You access it directly in the console. The Donkey UI provides several useful windows for managing, training, and interacting with your car. Here’s a breakdown of each window:
 
- 
+- **Tub Manager**:
+  - Helps you manage the data used for training.
+  - You can delete poor-quality data.
+  - Apply filters to refine the dataset.
 
+- **Trainer**:
+  - Used to train your model.
+  - Configure training parameters and start the training process.
+  - Monitor training progress and adjust as needed.
 
-#To create your own data and train
+- **Pilot Arena**:
+  - Displays how the model performs after training.
+  - Visualize the model's behavior in different scenarios.
 
-## Generate training data
+- **Car Connector**:
+  - Allows interaction with the car.
+  - Push data (such as a trained model) to the car.
+  - Pull data (like images) from the car to your PC.
+  - Workflow: Pull images from the car, train the model on your PC, then push the trained model back to the Raspberry Pi to test it.
 
-1) Load the Unity project sdsandbox/sdsim in Unity.  
+# Issues Encountered
 
-2) Create a dir sdsandbox/sdsim/log.  
+1. **Reinforcement Learning:**
+    - When using `rl-baselines3-zoo` for reinforcement learning, do not use the `feat/offline-RL` branch as mentioned in some tutorials. Instead, use the `feat/gym-donkeycar` branch. An error you might encounter with the wrong branch is `gym.error.NameNotFound: Environment 'donkey-waveshare' doesn't exist.`
 
-3) Hit the start arrow in Unity to launch project.  
+2. **Autoencoder:**
+    - Use the master branch of `aae-train-donkeycar`.
 
-4) Hit button "Generate Training Data" to generate image and steering training data. See sdsim/log for output files.  
-
-5) Stop Unity sim by clicking run arrow again.  
-
-6) Run this python script to prepare raw data for training:  
-
-```bash
-cd sdsandbox/src
-python prepare_data.py
-```
-
-7) Repeat 4, 5, 6 until you have lots of training data.
-
-
-
-## Train Neural network
-
-```bash
-python train.py --model=../outputs/mymodel.h5
-```
-
-Let this run. It may take a few hours if running on CPU. Usually far less on a GPU.
-
-
-
-## Run car with NN
-
-1) Start Unity project sdsim  
-
-
-2) Push button "Use NN Steering"
-
-
-3) Start the prediction client. This listens for images and returns a steering result.  
-
-```bash
-python predict_client.py --model=../outputs/mymodel.h5
-```
-
-
-
-## Requirements
-* [python 3.5+ 64 bit](https://www.python.org/)*
-* [tensorflow-1.10+](https://github.com/tensorflow/tensorflow)
-* [h5py](http://www.h5py.org/)  
-* [pillow](https://python-pillow.org/)  
-* [pygame](https://pypi.python.org/pypi/Pygame)**  
-* [Unity 2018.+](https://unity3d.com/get-unity/download)  
-
-
-**Note: pygame only needed if using mon_and_predict_server.py which gives a live camera feed during inferencing.
-
-
+3. **TFLite Conversion:**
+    - To convert a `.keras` model to TFLite during reinforcement learning:
+    ```bash
+    !pip install tf-nightly
+    !pip install -q --upgrade keras-nlp
+    !pip install -q -U keras>=3
+    pip install tf_keras
+    pip install tf-nightly
+    pip install -q --upgrade keras-nlp
+    pip install -q -U keras>=3
+    ```
