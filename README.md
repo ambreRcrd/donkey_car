@@ -1,93 +1,140 @@
-# Donkey Car
+# SdSandbox
+
+Self Driving Car Sandbox
 
 
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/e0AFMilaeMI/0.jpg)](https://www.youtube.com/watch?v=e0AFMilaeMI "self driving car sim")
 
-## Getting started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## Summary
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Use Unity 3d game engine to simulate car physics in a 3d world.
+Generate image steering pairs to train a neural network. Uses NVidia PilotNet NN topology.
+Then validate the steering control by sending images to your neural network and feed steering back into the simulator to drive.
 
-## Add your files
+## Some videos to help you get started
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+### Training your first network
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/oe7fYuYw8GY/0.jpg)](https://www.youtube.com/watch?v=oe7fYuYw8GY "Getting Started w sdsandbox")
 
+### World complexity
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/FhAKaH3ysow/0.jpg)](https://www.youtube.com/watch?v=FhAKaH3ysow "Making a more interesting world.")
+
+### Creating a robust training set
+
+[![IMAGE ALT TEXT](https://img.youtube.com/vi/_h8l7qoT4zQ/0.jpg)](https://www.youtube.com/watch?v=_h8l7qoT4zQ "Creating a robust sdc.")
+
+## Setup
+
+You need to have [Unity](https://unity3d.com/get-unity/download) installed, and all python modules listed in the Requirements section below.
+
+Linix Unity install [here](https://forum.unity3d.com/threads/unity-on-linux-release-notes-and-known-issues.350256/). Check last post in this thread.
+
+You need python 3.4 or higher, 64 bit. You can create a virtual env if you like:
+```bash
+virtualenv -p python3 env
+source env/bin/activate
 ```
-cd existing_repo
-git remote add origin https://gitlab.ensta-bretagne.fr/ricouaam/donkey_car.git
-git branch -M main
-git push -uf origin main
+
+And then you can install the dependancies. This installs a specific version of keras only because it will allow you to load the pre-trained model with fewer problems. If not an issue for you, you can install the latest keras.
+```bash
+pip install -r requirements.txt
 ```
 
-## Integrate with your tools
+This will install [Donkey Gym](https://github.com/tawnkramer/donkey_gym) and [Donkey Car](https://github.com/tawnkramer/donkey) packages from source.
 
-- [ ] [Set up project integrations](https://gitlab.ensta-bretagne.fr/ricouaam/donkey_car/-/settings/integrations)
+Note: Tensorflow >= 1.10.1 is required
 
-## Collaborate with your team
+If you have an cuda supported GPU - probably NVidia
+```bash
+pip install tensorflow-gpu
+```
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+Or without a supported gpu
+```bash
+pip install tensorflow
+```
 
-## Test and Deploy
 
-Use the built-in continuous integration in GitLab.
+## Demo
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+1) Load the Unity project sdsandbox/sdsim in Unity. Double click on Assets/Scenes/road_generator to open that scene.  
 
-***
+2) Hit the start button to launch. Then the "Use NN Steering". When you hit this button, the car will disappear. This is normal. You will see one car per client that connects.
 
-# Editing this README
+3) Start the prediction server with the pre-trained model.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+```bash
+cd sdsandbox/src
+python predict_client.py --model=../outputs/highway.h5
+```
+ If you get a crash loading this model, you will not be able to run the demo. But you can still generate your own model. This is a problem between tensorflow/keras versions.
 
-## Suggestions for a good README
+ Note* You can start multiple clients at the same time and you will see them spawn as they connect.
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+ 
 
-## Name
-Choose a self-explaining name for your project.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+#To create your own data and train
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+## Generate training data
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+1) Load the Unity project sdsandbox/sdsim in Unity.  
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+2) Create a dir sdsandbox/sdsim/log.  
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+3) Hit the start arrow in Unity to launch project.  
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+4) Hit button "Generate Training Data" to generate image and steering training data. See sdsim/log for output files.  
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+5) Stop Unity sim by clicking run arrow again.  
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+6) Run this python script to prepare raw data for training:  
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+```bash
+cd sdsandbox/src
+python prepare_data.py
+```
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+7) Repeat 4, 5, 6 until you have lots of training data.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
 
-## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Train Neural network
+
+```bash
+python train.py --model=../outputs/mymodel.h5
+```
+
+Let this run. It may take a few hours if running on CPU. Usually far less on a GPU.
+
+
+
+## Run car with NN
+
+1) Start Unity project sdsim  
+
+
+2) Push button "Use NN Steering"
+
+
+3) Start the prediction client. This listens for images and returns a steering result.  
+
+```bash
+python predict_client.py --model=../outputs/mymodel.h5
+```
+
+
+
+## Requirements
+* [python 3.5+ 64 bit](https://www.python.org/)*
+* [tensorflow-1.10+](https://github.com/tensorflow/tensorflow)
+* [h5py](http://www.h5py.org/)  
+* [pillow](https://python-pillow.org/)  
+* [pygame](https://pypi.python.org/pypi/Pygame)**  
+* [Unity 2018.+](https://unity3d.com/get-unity/download)  
+
+
+**Note: pygame only needed if using mon_and_predict_server.py which gives a live camera feed during inferencing.
+
+

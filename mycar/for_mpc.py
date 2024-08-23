@@ -27,7 +27,7 @@ import do_mpc
 import casadi as ca
 from scipy.optimize import minimize
 from process_image import ImageProcessor
-from new_mpc import MPCController
+from mpc import MPCController
 from plotter import Plotter
 from logger import TrajectoryLogger
 
