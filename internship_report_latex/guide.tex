@@ -1,0 +1,151 @@
+% chercher des documents LaTeX dans styles, corps et bib
+\makeatletter\def\input@path{{styles/}{corps/}}\makeatother
+\documentclass{rapport}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+\usetikzlibrary{fit}
+\usepackage{subcaption}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{pgffor}
+\usepackage{pgf, pgffor, amsmath}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+
+\usetikzlibrary{positioning, shapes, arrows.meta}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{geometry}
+\usepackage{acronym}
+\usepackage{cleveref}
+\usepackage{appendix}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{listings}
+\usepackage{xcolor}
+%\usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+%\usepackage[linesnumbered, ruled, vlined]{algorithm2e}
+%\usepackage[ruled,vlined]{algorithm2e}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+
+
+\title{\vspace{1cm} Combination of Stochastic Model Predictive Control and Vision System on a Donkey Car for Circuit Following Task}
+\author{Ambre \textsc{Ricouard}\\
+  \texttt{ambre.ricouard@ensta-bretagne.org}}
+\date{October 1, 2024}
+\etablissement{\textsc{Ensta} Bretagne\\2, rue François Verny\\
+  29806 \textsc{Brest} cedex\\\textsc{France}\\Tel +33 (0)2 98 34 88 00\\ \url{www.ensta-bretagne.fr}}
+\logoEcole{\includegraphics[height=4.2cm]{logo_ENSTA_Bretagne_Vertical_CMJN}}
+
+% Insertion de l'image
+
+% Métadonnées à inclure dans le pdf
+\hypersetup{%
+  pdftitle={intern_report},
+  pdfauthor={Ambre Ricouard},
+  pdfkeywords={internship report},
+  bookmarksnumbered,
+  pdfstartview={FitH},
+  citecolor=blue,
+  breaklinks=true
+}%
+
+% Créer le glossaire
+\makeglossaries
+% Créer l'index
+\makeindex
+
+% Redefine \maketitle to include logo
+\makeatletter
+\renewcommand{\maketitle}{
+    \begin{titlepage}
+        \centering
+        \begin{minipage}{0.35\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{logo_ENSTA_Bretagne_Vertical_CMJN}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.55\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{imgs/tu_wien.jpeg}
+        \end{minipage}
+        \vspace{1cm} % Ajustez l'espace entre les logos et le titre
+        {\Huge \bfseries \@title \par}
+        \vspace{0.5cm} % Réduire l'espace entre les lignes du titre
+        {\Large \@author \par}
+        \vfill
+        {\large \@date \par}
+        \vfill
+        {\large \@etablissement \par}
+        \vfill
+    \end{titlepage}
+}
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[height=1cm]{logo_ENSTA_Bretagne_Vertical_CMJN}}
+\fancyhead[R]{\includegraphics[height=1cm]{imgs/tu_wien.jpeg}}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+
+% Début du préambule
+\frontmatter
+% Inclure la liste des acronymes
+\input{acronymes}
+% Créer le titre ici
+\maketitle 
+
+% Chargement du fichier abstract.tex
+\input{abstract}
+
+\clearpage
+
+% Table des matières
+\tableofcontents
+
+\clearpage
+
+% Partie principale
+\mainmatter
+% Chargement du fichier corps.tex
+\input{corps}
+
+\appendix
+
+\clearpage
+
+\phantomsection
+
+%\addcontentsline{toc}{section}{Liste des tableaux}
+%\listoftables
+
+%\clearpage
+%\phantomsection
+%\label{sec:index}
+%\addcontentsline{toc}{section}{Index}
+%\printindex
+
+\printglossaries
+
+\clearpage
+\phantomsection
+%\addcontentsline{toc}{section}{Bibliographie}
+
+\bibliography{bib/guide}
+\bibliographystyle{alpha}
+
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

@@ -1,0 +1,14 @@
+Le document "exemple_minimal.tex" est (comme son nom l'indique) un exemple
+minimal de rapport. Il utilise la page de garde definie dans le repertoire
+styles.
+
+Le document "guide.tex" est un exemple plus complexe.
+La définition du style et de la page de garde sont dans le répertoire "styles"
+Le corps du document est dans le répertoire "corps"
+La bibliographie est dans le répertoire "bib"
+Les images sont dans le répertoire "imgs"
+
+Pour compiler le document le plus simple est d'utiliser la commande "latexmk" (http://www.ctan.org/pkg/latexmk/) :
+latexmk -pdf exemple_minimal
+ou
+latexmk -pdf guide

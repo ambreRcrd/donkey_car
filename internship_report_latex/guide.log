@@ -1,0 +1,2735 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.30)  30 SEP 2024 23:00
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**guide.tex
+(./guide.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(./styles/rapport.cls
+
+LaTeX Warning: You have requested document class `styles/rapport',
+               but the document class provides `rapport'.
+
+Document Class: rapport 2014/10/08
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+\et@xins=\count196
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+Normal \count register pool exhausted, switching to extended pool.
+\babel@savecnt=\count277
+\U@D=\dimen149
+\l@unhyphenated=\language89
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count278
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language23). Reported on input line 108.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2024-02-29 v3.5s French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language31). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language31). Reported on input line 92.
+\FB@stdchar=\count279
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count280
+\FBold@everypar=\toks19
+\FB@Mht=\dimen150
+\mc@charclass=\count281
+\mc@charfam=\count282
+\mc@charslot=\count283
+\std@mcc=\count284
+\dec@mcc=\count285
+\FB@parskip=\dimen151
+\listindentFB=\dimen152
+\descindentFB=\dimen153
+\labelindentFB=\dimen154
+\labelwidthFB=\dimen155
+\leftmarginFB=\dimen156
+\parindentFFN=\dimen157
+\FBfnindent=\dimen158
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/fr/babel-french.te
+x
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/babel/locale/en/babel-english.t
+ex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen161
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen162
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count286
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count287
+\leftroot@=\count288
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count289
+\DOTSCASE@=\count290
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen163
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count291
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count292
+\dotsspace@=\muskip16
+\c@parentequation=\count293
+\dspbrk@lvl=\count294
+\tag@help=\toks21
+\row@=\count295
+\column@=\count296
+\maxfields@=\count297
+\andhelp@=\toks22
+\eqnshift@=\dimen164
+\alignsep@=\dimen165
+\tagshift@=\dimen166
+\tagwidth@=\dimen167
+\totwidth@=\dimen168
+\lineht@=\dimen169
+\@envbody=\toks23
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip53
+\thm@postskip=\skip54
+\thm@headsep=\skip55
+\dth@everypar=\toks30
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/euscript.sty
+Package: euscript 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+)
+(./styles/pageGardeEnsta.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks31
+\pgfutil@tempdima=\dimen170
+\pgfutil@tempdimb=\dimen171
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box53
+) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks32
+\pgfkeys@temptoks=\toks33
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks34
+))
+\pgf@x=\dimen172
+\pgf@y=\dimen173
+\pgf@xa=\dimen174
+\pgf@ya=\dimen175
+\pgf@xb=\dimen176
+\pgf@yb=\dimen177
+\pgf@xc=\dimen178
+\pgf@yc=\dimen179
+\pgf@xd=\dimen180
+\pgf@yd=\dimen181
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count298
+\c@pgf@countb=\count299
+\c@pgf@countc=\count300
+\c@pgf@countd=\count301
+\t@pgf@toka=\toks35
+\t@pgf@tokb=\toks36
+\t@pgf@tokc=\toks37
+\pgf@sys@id@count=\count302
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count303
+\pgfsyssoftpath@bigbuffer@items=\count304
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen182
+\pgfmath@count=\count305
+\pgfmath@box=\box54
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count306
+)) (/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen183
+\pgf@picmaxx=\dimen184
+\pgf@picminy=\dimen185
+\pgf@picmaxy=\dimen186
+\pgf@pathminx=\dimen187
+\pgf@pathmaxx=\dimen188
+\pgf@pathminy=\dimen189
+\pgf@pathmaxy=\dimen190
+\pgf@xx=\dimen191
+\pgf@xy=\dimen192
+\pgf@yx=\dimen193
+\pgf@yy=\dimen194
+\pgf@zx=\dimen195
+\pgf@zy=\dimen196
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen197
+\pgf@path@lasty=\dimen198
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen199
+Normal \dimen register pool exhausted, switching to extended pool.
+\pgf@shorten@start@additional=\dimen256
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count307
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen257
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen258
+\pgf@pt@y=\dimen259
+\pgf@pt@temp=\dimen260
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen261
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen262
+\pgf@sys@shading@range@num=\count308
+\pgf@shadingcount=\count309
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box58
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box59
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen263
+\pgf@nodesepend=\dimen264
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen265
+\pgffor@skip=\dimen266
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count310
+\pgfplotmarksize=\dimen267
+)
+\tikz@lastx=\dimen268
+\tikz@lasty=\dimen269
+\tikz@lastxsaved=\dimen270
+\tikz@lastysaved=\dimen271
+\tikz@lastmovetox=\dimen272
+\tikz@lastmovetoy=\dimen273
+\tikzleveldistance=\dimen274
+\tikzsiblingdistance=\dimen275
+\tikz@figbox=\box60
+\tikz@figbox@bg=\box61
+\tikz@tempbox=\box62
+\tikz@tempbox@bg=\box63
+\tikztreelevel=\count311
+\tikznumberofchildren=\count312
+\tikznumberofcurrentchild=\count313
+\tikz@fig@count=\count314
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count315
+\pgfmatrixcurrentcolumn=\count316
+\pgf@matrix@numberofcolumns=\count317
+)
+\tikz@expandcount=\count318
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count319
+)
+\MT@toks=\toks43
+\MT@tempbox=\box64
+\MT@count=\count320
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks44
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen276
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count321
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip56
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen277
+\ar@mcellbox=\box65
+\extrarowheight=\dimen278
+\NC@list=\toks45
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box66
+)
+\TX@col@width=\dimen279
+\TX@old@table=\dimen280
+\TX@old@col=\dimen281
+\TX@target=\dimen282
+\TX@delta=\dimen283
+\TX@cols=\count322
+\TX@ftn=\toks46
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/eurosym/eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box67
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count323
+\float@exts=\toks47
+\float@box=\box68
+\@float@everytoks=\toks48
+\@floatcapt=\box69
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count324
+\mult@box=\box70
+\multicol@leftmargin=\dimen284
+\c@unbalance=\count325
+\c@collectmore=\count326
+\doublecol@number=\count327
+\multicoltolerance=\count328
+\multicolpretolerance=\count329
+\full@width=\dimen285
+\page@free=\dimen286
+\premulticols=\dimen287
+\postmulticols=\dimen288
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box71
+\last@line=\box72
+\mc@boxedresult=\box73
+\maxbalancingoverflow=\dimen289
+\mult@rightbox=\box74
+\mult@grightbox=\box75
+\mult@firstbox=\box76
+\mult@gfirstbox=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\c@minrows=\count330
+\c@columnbadness=\count331
+\c@finalcolumnbadness=\count332
+\last@try=\dimen290
+\multicolovershoot=\dimen291
+\multicolundershoot=\dimen292
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count333
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryautomata.code.tex
+File: tikzlibraryautomata.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box116
+\pgfnodeparttwobox=\box117
+\pgfnodepartthreebox=\box118
+\pgfnodepartfourbox=\box119
+\pgfnodeparttwentybox=\box120
+\pgfnodepartnineteenbox=\box121
+\pgfnodeparteighteenbox=\box122
+\pgfnodepartseventeenbox=\box123
+\pgfnodepartsixteenbox=\box124
+\pgfnodepartfifteenbox=\box125
+\pgfnodepartfourteenbox=\box126
+\pgfnodepartthirteenbox=\box127
+\pgfnodeparttwelvebox=\box128
+\pgfnodepartelevenbox=\box129
+\pgfnodeparttenbox=\box130
+\pgfnodepartninebox=\box131
+\pgfnodeparteightbox=\box132
+\pgfnodepartsevenbox=\box133
+\pgfnodepartsixbox=\box134
+\pgfnodepartfivebox=\box135
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen293
+))
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytrees.code.tex
+File: tikzlibrarytrees.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks49
+\inpenc@posthook=\toks50
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2021/02/14 v1.3d Input encoding file
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count334
+)
+\@linkdim=\dimen294
+\Hy@linkcounter=\count335
+\Hy@pagecounter=\count336
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count337
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4062.
+Package hyperref Info: Option `breaklinks' set `true' on input line 4062.
+Package hyperref Info: Hyper figures OFF on input line 4179.
+Package hyperref Info: Link nesting OFF on input line 4184.
+Package hyperref Info: Hyper index ON on input line 4187.
+Package hyperref Info: Plain pages OFF on input line 4194.
+Package hyperref Info: Backreferencing ON on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4446.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+))
+\c@Hy@tempcnt=\count338
+LaTeX Info: Redefining \url on input line 4784.
+\XeTeXLinkMargin=\dimen295
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+)
+\Fld@menulength=\count339
+\Field@Width=\dimen296
+\Fld@charsize=\dimen297
+Package hyperref Info: Hyper figures OFF on input line 6063.
+Package hyperref Info: Link nesting OFF on input line 6068.
+Package hyperref Info: Hyper index ON on input line 6071.
+Package hyperref Info: backreferencing ON on input line 6076.
+Package hyperref Info: Link coloring ON on input line 6081.
+Package hyperref Info: Link coloring with OCG OFF on input line 6088.
+Package hyperref Info: PDF/A mode OFF on input line 6093.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count340
+\c@Item=\count341
+\c@Hfootnote=\count342
+)
+Package hyperref Info: Driver: hpdftex.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+\Fld@listcount=\count343
+\c@bookmark@seq@number=\count344
+\Hy@SectionHShift=\skip61
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2023/09/29 v4.53 (NLCT)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks51
+\XKV@tempa@toks=\toks52
+)
+\XKV@depth=\count345
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2022/10/14 v2.08 (NLCT)
+\@glsmfirst=\toks53
+\@glsmrest=\toks54
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count346
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count347
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count348
+\FP@xia=\count349
+\FP@xib=\count350
+\FP@xfa=\count351
+\FP@xfb=\count352
+\FP@rega=\count353
+\FP@regb=\count354
+\FP@regs=\count355
+\FP@times=\count356
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count357
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks55
+\@dtl@tmpcount=\count358
+\dtl@tmplength=\skip62
+\dtl@sortresult=\count359
+\@dtl@numgrpsepcount=\count360
+\@dtl@datatype=\count361
+\dtl@codeA=\count362
+\dtl@codeB=\count363
+\@dtl@foreach@level=\count364
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2022/12/13 v1.6.1 (NLCT) Track Languages
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries-french/glossaries-fren
+ch.ldf
+File: glossaries-french.ldf 2016/12/12 v1.1
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries-english/glossaries-eng
+lish.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count365
+\@gls@tmpb=\toks56
+\gls@tmplen=\skip63
+\glskeylisttok=\toks57
+\glslabeltok=\toks58
+\glsshorttok=\toks59
+\glslongtok=\toks60
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2023/09/29 v4.53 (NLCT)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2023/09/29 v4.53 (NLCT)
+\glslistdottedwidth=\skip64
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2023/09/29 v4.53 (NLCT)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
+\LTchunksize=\count366
+\LTcapwidth=\dimen298
+\LT@head=\box136
+\LT@firsthead=\box137
+\LT@foot=\box138
+\LT@lastfoot=\box139
+\LT@gbox=\box140
+\LT@cols=\count367
+\LT@rows=\count368
+\c@LT@tables=\count369
+\c@LT@chunks=\count370
+\LT@p@ftn=\toks61
+)
+\glsdescwidth=\skip69
+\glspagelistwidth=\skip70
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2023/09/29 v4.53 (NLCT)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count371
+\ST@wd=\dimen299
+\ST@rightskip=\skip71
+\ST@leftskip=\skip72
+\ST@parfillskip=\skip73
+\ST@pageleft=\dimen300
+\ST@headht=\dimen301
+\ST@tailht=\dimen302
+\ST@pagesofar=\dimen303
+\ST@pboxht=\dimen304
+\ST@lineht=\dimen305
+\ST@prevht=\dimen306
+\ST@toadd=\dimen307
+\ST@dimen=\dimen308
+\ST@pbox=\box141
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2023/09/29 v4.53 (NLCT)
+\glstreeindent=\skip74
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen309
+\lightrulewidth=\dimen310
+\cmidrulewidth=\dimen311
+\belowrulesep=\dimen312
+\belowbottomsep=\dimen313
+\aboverulesep=\dimen314
+\abovetopsep=\dimen315
+\cmidrulesep=\dimen316
+\cmidrulekern=\dimen317
+\defaultaddspace=\dimen318
+\@cmidla=\count372
+\@cmidlb=\count373
+\@aboverulesep=\dimen319
+\@belowrulesep=\dimen320
+\@thisruleclass=\count374
+\@lastruleclass=\count375
+\@thisrulewidth=\dimen321
+)
+\c@theo=\count376
+\c@theoreme=\count377
+\c@lemme=\count378
+\c@corollaire=\count379
+\c@defi=\count380
+\c@exemple=\count381
+\c@exemples=\count382
+\c@prop=\count383
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfit.code.tex
+File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen322
+\captionmargin=\dimen323
+\caption@leftmargin=\dimen324
+\caption@rightmargin=\dimen325
+\caption@width=\dimen326
+\caption@indent=\dimen327
+\caption@parindent=\dimen328
+\caption@hangindent=\dimen329
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count384
+\c@continuedfloat=\count385
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: supertabular package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count386
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count387
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip75
+\f@nch@O@elh=\skip76
+\f@nch@O@erh=\skip77
+\f@nch@O@olh=\skip78
+\f@nch@O@orh=\skip79
+\f@nch@O@elf=\skip80
+\f@nch@O@erf=\skip81
+\f@nch@O@olf=\skip82
+\f@nch@O@orf=\skip83
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count388
+\calc@Bcount=\count389
+\calc@Adimen=\dimen330
+\calc@Bdimen=\dimen331
+\calc@Askip=\skip84
+\calc@Bskip=\skip85
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count390
+\calc@Cskip=\skip86
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen332
+\ESO@tempdimb=\dimen333
+)
+\AM@pagewidth=\dimen334
+\AM@pageheight=\dimen335
+\AM@fboxrule=\dimen336
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count391
+\AM@pagebox=\box142
+\AM@global@opts=\toks62
+\AM@pagecnt=\count392
+\AM@toc@title=\toks63
+\AM@lof@heading=\toks64
+\c@AM@survey=\count393
+\AM@templatesizebox=\box143
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen337
+\pgfarrowlength=\dimen338
+\pgfarrowwidth=\dimen339
+\pgfarrowlinewidth=\dimen340
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(/usr/local/texlive/2024/texmf-dist/tex/latex/acronym/acronym.sty
+Package: acronym 2020/04/17 v1.47 Support for acronyms (Tobias Oetiker)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/bigfoot/suffix.sty
+Package: suffix 2006/07/15 1.5a Variant command support
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count394
+\xs_countb=\count395
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+\AC@clearlist=\toks65
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2020/02/08 v1.2c extra appendix facilities
+\c@@pps=\count396
+\c@@ppsavesec=\count397
+\c@@ppsaveapp=\count398
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count399
+\lst@gtempboxa=\box144
+\lst@token=\toks66
+\lst@length=\count400
+\lst@currlwidth=\dimen341
+\lst@column=\count401
+\lst@pos=\count402
+\lst@lostspace=\dimen342
+\lst@width=\dimen343
+\lst@newlines=\count403
+\lst@lineno=\count404
+\lst@maxwidth=\dimen344
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
+\c@lstnumber=\count405
+\lst@skipnumbers=\count406
+\lst@framebox=\box145
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/02/21 1.10 listings configuration
+))
+Package: listings 2024/02/21 1.10 (Carsten Heinz)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count407
+\algocf@hangindent=\skip87
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count408
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip88
+\skiplinenumber=\skip89
+\skiprule=\skip90
+\skiphlne=\skip91
+\skiptext=\skip92
+\skiplength=\skip93
+\algomargin=\skip94
+\skipalgocfslide=\skip95
+\algowidth=\dimen345
+\inoutsize=\dimen346
+\inoutindent=\dimen347
+\interspacetitleruled=\dimen348
+\interspacealgoruled=\dimen349
+\interspacetitleboxruled=\dimen350
+\algocf@ruledwidth=\skip96
+\algocf@inoutbox=\box146
+\algocf@inputbox=\box147
+\AlCapSkip=\skip97
+\AlCapHSkip=\skip98
+\algoskipindent=\skip99
+\algocf@nlbox=\box148
+\algocf@hangingbox=\box149
+\algocf@untilbox=\box150
+\algocf@skipuntil=\skip100
+\algocf@capbox=\box151
+\algocf@lcaptionbox=\skip101
+\algoheightruledefault=\skip102
+\algoheightrule=\skip103
+\algotitleheightruledefault=\skip104
+\algotitleheightrule=\skip105
+\c@algocfline=\count409
+\c@algocfproc=\count410
+\c@algocf=\count411
+\algocf@algoframe=\box152
+\algocf@algobox=\box153
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 57.
+
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 57.
+Package hyperref Info: Option `breaklinks' set `true' on input line 57.
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `guide.glo'.
+
+Package glossaries Info: Writing glossary file guide.glo on input line 60.
+\glo@glo@file=\write6
+\openout6 = `guide.acn1'.
+
+Package glossaries Info: Writing glossary file guide.acn1 on input line 60.
+\@indexfile=\write7
+\openout7 = `guide.idx'.
+
+Writing index file guide.idx
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count412
+\l__pdf_internal_box=\box154
+)
+(./guide.aux)
+\openout1 = `guide.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 97.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 97
+.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(105.2752pt, 625.96062pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=625.96062pt
+* \oddsidemargin=-0.56833pt
+* \evensidemargin=35.28255pt
+* \topmargin=-3.99478pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count413
+\scratchdimen=\dimen351
+\scratchbox=\box155
+\nofMPsegments=\count414
+\nofMParguments=\count415
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count416
+\MPscratchDim=\dimen352
+\MPnumerator=\count417
+\makeMPintoPDFobject=\count418
+\everyMPtoPDFconversion=\toks68
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Info: Redefining \degres on input line 97.
+LaTeX Info: Redefining \up on input line 97.
+LaTeX Info: Redefining \microtypecontext on input line 97.
+Package microtype Info: Applying patch `item' on input line 97.
+Package microtype Info: Applying patch `toc' on input line 97.
+Package microtype Info: Applying patch `eqnum' on input line 97.
+Package microtype Info: Applying patch `footnote' on input line 97.
+Package microtype Info: Applying patch `verbatim' on input line 97.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 97.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package hyperref Info: Link coloring ON on input line 97.
+
+(./guide.out) (./guide.out)
+\@outlinefile=\write8
+\openout8 = `guide.out'.
+
+ (./guide.glsdefs)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count419
+ (./corps/acronymes.tex
+\@gls@deffile=\write9
+\openout9 = `guide.glsdefs'.
+
+)
+<imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf, id=99, 236.15828pt x 284.52798pt>
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 104.
+(pdftex.def)             Requested size: 146.39133pt x 176.37512pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+04.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+04.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+104.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+104.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 104.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 104.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104
+.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+<imgs/tu_wien.jpeg, id=100, 602.25pt x 301.125pt>
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 104.
+(pdftex.def)             Requested size: 230.04079pt x 115.02141pt.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+04.
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 104.
+ [1
+
+\openout4 = `guide.ist'.
+
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./imgs/logo_ENSTA_Bre
+tagne_Vertical_CMJN.pdf> <./imgs/tu_wien.jpeg>] (./corps/abstract.tex
+Underfull \vbox (badness 1596) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 32.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 32.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[2])
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 109.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 109.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[3] (./guide.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 4.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 4.
+Package acronym Info: Label `acro:PID' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+Package acronym Info: Label `acro:MPC' newly defined as it shall be overridden
+although it is yet undefined on input line 16.
+)
+\tf@toc=\write10
+\openout10 = `guide.toc'.
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 114.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 114.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[4
+
+] (./corps/corps.tex
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+<imgs/donkey_car.pdf, id=187, 903.375pt x 688.5725pt>
+File: imgs/donkey_car.pdf Graphic file (type pdf)
+<use imgs/donkey_car.pdf>
+Package pdftex.def Info: imgs/donkey_car.pdf  used on input line 165.
+(pdftex.def)             Requested size: 250.95476pt x 191.286pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 169.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 169.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[1
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+80.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (21.58578pt too wide) in paragraph at lines 172--187
+ [][] 
+ []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 203.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 203.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <./imgs/do
+nkey_car.pdf>]
+<imgs/circuit_reel.png, id=216, 3033.3325pt x 3891.53876pt>
+File: imgs/circuit_reel.png Graphic file (type png)
+<use imgs/circuit_reel.png>
+Package pdftex.def Info: imgs/circuit_reel.png  used on input line 208.
+(pdftex.def)             Requested size: 188.21288pt x 241.43918pt.
+<imgs/circuit_simu.png, id=217, 996.72375pt x 944.52875pt>
+File: imgs/circuit_simu.png Graphic file (type png)
+<use imgs/circuit_simu.png>
+Package pdftex.def Info: imgs/circuit_simu.png  used on input line 215.
+(pdftex.def)             Requested size: 188.21288pt x 178.35257pt.
+<imgs/hist_camera.png, id=222, 867.24pt x 578.16pt>
+File: imgs/hist_camera.png Graphic file (type png)
+<use imgs/hist_camera.png>
+Package pdftex.def Info: imgs/hist_camera.png  used on input line 227.
+(pdftex.def)             Requested size: 418.25368pt x 278.83694pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 231.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 231.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[3 <./imgs/circuit_reel.png> <./imgs/circuit_simu.png>]
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 282.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 282.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[4 <./imgs/hist_camera.png>]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+LaTeX Font Info:    Trying to load font information for T3+lmr on input line 33
+3.
+LaTeX Font Info:    No file T3lmr.fd. on input line 333.
+
+LaTeX Font Warning: Font shape `T3/lmr/m/n' undefined
+(Font)              using `T3/cmr/m/n' instead
+(Font)              for symbol `texttheta' on input line 333.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 339.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 339.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
+24/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2024/texmf-d
+ist/fonts/enc/dvips/lm/lm-mathit.enc}]
+<imgs/d_f_theta_3.png, id=265, 578.16pt x 433.62pt>
+File: imgs/d_f_theta_3.png Graphic file (type png)
+<use imgs/d_f_theta_3.png>
+Package pdftex.def Info: imgs/d_f_theta_3.png  used on input line 345.
+(pdftex.def)             Requested size: 418.25368pt x 313.68826pt.
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 351.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 351.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[6 <./imgs/d_f_theta_3.png>]
+<imgs/original_image.png, id=275, 160.6pt x 120.45pt>
+File: imgs/original_image.png Graphic file (type png)
+<use imgs/original_image.png>
+Package pdftex.def Info: imgs/original_image.png  used on input line 366.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/hsv_image.png, id=278, 160.6pt x 120.45pt>
+File: imgs/hsv_image.png Graphic file (type png)
+<use imgs/hsv_image.png>
+Package pdftex.def Info: imgs/hsv_image.png  used on input line 372.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/masked_image.png, id=281, 160.6pt x 120.45pt>
+File: imgs/masked_image.png Graphic file (type png)
+<use imgs/masked_image.png>
+Package pdftex.def Info: imgs/masked_image.png  used on input line 378.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/blurred_masked_image.png, id=282, 160.6pt x 120.45pt>
+File: imgs/blurred_masked_image.png Graphic file (type png)
+<use imgs/blurred_masked_image.png>
+Package pdftex.def Info: imgs/blurred_masked_image.png  used on input line 384.
+
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/dilated_image.png, id=283, 160.6pt x 120.45pt>
+File: imgs/dilated_image.png Graphic file (type png)
+<use imgs/dilated_image.png>
+Package pdftex.def Info: imgs/dilated_image.png  used on input line 390.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/image_with_contours.png, id=284, 160.6pt x 120.45pt>
+File: imgs/image_with_contours.png Graphic file (type png)
+<use imgs/image_with_contours.png>
+Package pdftex.def Info: imgs/image_with_contours.png  used on input line 396.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/final_result.png, id=285, 462.528pt x 346.896pt>
+File: imgs/final_result.png Graphic file (type png)
+<use imgs/final_result.png>
+Package pdftex.def Info: imgs/final_result.png  used on input line 402.
+(pdftex.def)             Requested size: 167.2989pt x 125.4753pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 410.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 410.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[7]
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 416.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 416.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[8 <./imgs/original_image.png (PNG copy)> <./imgs/hsv_image.png (PNG copy)> <./
+imgs/masked_image.png (PNG copy)> <./imgs/blurred_masked_image.png (PNG copy)> 
+<./imgs/dilated_image.png (PNG copy)> <./imgs/image_with_contours.png (PNG copy
+)> <./imgs/final_result.png>]
+<imgs/diagram_2.png, id=309, 640.94456pt x 614.295pt>
+File: imgs/diagram_2.png Graphic file (type png)
+<use imgs/diagram_2.png>
+Package pdftex.def Info: imgs/diagram_2.png  used on input line 427.
+(pdftex.def)             Requested size: 448.65813pt x 430.00356pt.
+
+Overfull \hbox (30.40445pt too wide) in paragraph at lines 426--428
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 431.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 431.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[9]
+
+LaTeX Warning: Reference `fig:step2_4' on page 10 undefined on input line 433.
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 436.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 436.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[10 <./imgs/diagram_2.png>]
+<imgs/one_line_original_image.jpg, id=328, 160.6pt x 120.45pt>
+File: imgs/one_line_original_image.jpg Graphic file (type jpg)
+<use imgs/one_line_original_image.jpg>
+Package pdftex.def Info: imgs/one_line_original_image.jpg  used on input line 4
+44.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/white_lines_masked_image_lower_half.png, id=331, 160.6pt x 120.45pt>
+File: imgs/white_lines_masked_image_lower_half.png Graphic file (type png)
+<use imgs/white_lines_masked_image_lower_half.png>
+Package pdftex.def Info: imgs/white_lines_masked_image_lower_half.png  used on 
+input line 450.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/white_lines_blurred_masked_image_lower_half.png, id=332, 160.6pt x 120.45
+pt>
+File: imgs/white_lines_blurred_masked_image_lower_half.png Graphic file (type p
+ng)
+<use imgs/white_lines_blurred_masked_image_lower_half.png>
+Package pdftex.def Info: imgs/white_lines_blurred_masked_image_lower_half.png  
+used on input line 456.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/white_lines_dilated_image_lower_half.png, id=333, 160.6pt x 120.45pt>
+File: imgs/white_lines_dilated_image_lower_half.png Graphic file (type png)
+<use imgs/white_lines_dilated_image_lower_half.png>
+Package pdftex.def Info: imgs/white_lines_dilated_image_lower_half.png  used on
+ input line 462.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/image_with_white_line.png, id=334, 160.6pt x 120.45pt>
+File: imgs/image_with_white_line.png Graphic file (type png)
+<use imgs/image_with_white_line.png>
+Package pdftex.def Info: imgs/image_with_white_line.png  used on input line 468
+.
+(pdftex.def)             Requested size: 125.47737pt x 94.1105pt.
+<imgs/final_result_white.png, id=335, 462.528pt x 346.896pt>
+File: imgs/final_result_white.png Graphic file (type png)
+<use imgs/final_result_white.png>
+Package pdftex.def Info: imgs/final_result_white.png  used on input line 474.
+(pdftex.def)             Requested size: 167.2989pt x 125.4753pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 541.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 541.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[11 <./imgs/one_line_original_image.jpg> <./imgs/white_lines_masked_image_lower
+_half.png (PNG copy)> <./imgs/white_lines_blurred_masked_image_lower_half.png (
+PNG copy)> <./imgs/white_lines_dilated_image_lower_half.png (PNG copy)> <./imgs
+/image_with_white_line.png (PNG copy)> <./imgs/final_result_white.png>]
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 612.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 612.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[12]
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 671.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 671.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[13]
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 816.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 816.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[14]
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 872.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 872.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[15]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 874.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 876--878
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--939
+
+ []
+
+<imgs/theta_t.png, id=389, 722.7pt x 433.62pt>
+File: imgs/theta_t.png Graphic file (type png)
+<use imgs/theta_t.png>
+Package pdftex.def Info: imgs/theta_t.png  used on input line 944.
+(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 948.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 948.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[16]
+<imgs/new_new_st_t.png, id=397, 722.7pt x 433.62pt>
+File: imgs/new_new_st_t.png Graphic file (type png)
+<use imgs/new_new_st_t.png>
+Package pdftex.def Info: imgs/new_new_st_t.png  used on input line 955.
+(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 959.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 959.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[17 <./imgs/theta_t.png>]
+<imgs/error.png, id=409, 722.7pt x 433.62pt>
+File: imgs/error.png Graphic file (type png)
+<use imgs/error.png>
+Package pdftex.def Info: imgs/error.png  used on input line 970.
+(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 974.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 974.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[18 <./imgs/new_new_st_t.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ac' on input line 975.
+
+<imgs/mpc_diagram.png, id=422, 676.62787pt x 254.75175pt>
+File: imgs/mpc_diagram.png Graphic file (type png)
+<use imgs/mpc_diagram.png>
+Package pdftex.def Info: imgs/mpc_diagram.png  used on input line 985.
+(pdftex.def)             Requested size: 418.25368pt x 157.4702pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 989.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 989.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[19 <./imgs/error.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 998--999
+
+ []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1021.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1021.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[20 <./imgs/mpc_diagram.png>]
+<imgs/aie2.png, id=445, 722.7pt x 433.62pt>
+File: imgs/aie2.png Graphic file (type png)
+<use imgs/aie2.png>
+Package pdftex.def Info: imgs/aie2.png  used on input line 1028.
+(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1033--1034
+
+ []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1041.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1041.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[21 <./imgs/aie2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
+
+ []
+
+
+LaTeX Warning: Hyper reference `acro:ESC' on page 22 undefined on input line 10
+57.
+
+
+LaTeX Warning: Hyper reference `acro:ESC' on page 22 undefined on input line 10
+57.
+
+
+LaTeX Warning: Hyper reference `acro:C2' on page 22 undefined on input line 105
+8.
+
+
+LaTeX Warning: Hyper reference `acro:C2' on page 22 undefined on input line 105
+8.
+
+
+LaTeX Warning: Hyper reference `acro:FOV' on page 22 undefined on input line 10
+59.
+
+
+LaTeX Warning: Hyper reference `acro:FOV' on page 22 undefined on input line 10
+59.
+
+
+LaTeX Warning: Hyper reference `acro:RGB' on page 22 undefined on input line 10
+60.
+
+
+LaTeX Warning: Hyper reference `acro:RGB' on page 22 undefined on input line 10
+60.
+
+
+LaTeX Warning: Hyper reference `acro:HSV' on page 22 undefined on input line 10
+61.
+
+
+LaTeX Warning: Hyper reference `acro:HSV' on page 22 undefined on input line 10
+61.
+
+
+LaTeX Warning: Hyper reference `acro:ICR' on page 22 undefined on input line 10
+62.
+
+
+LaTeX Warning: Hyper reference `acro:ICR' on page 22 undefined on input line 10
+62.
+
+
+LaTeX Warning: Hyper reference `acro:NMPC' on page 22 undefined on input line 1
+063.
+
+
+LaTeX Warning: Hyper reference `acro:NMPC' on page 22 undefined on input line 1
+063.
+
+
+LaTeX Warning: Hyper reference `acro:GPS' on page 22 undefined on input line 10
+64.
+
+
+LaTeX Warning: Hyper reference `acro:GPS' on page 22 undefined on input line 10
+64.
+
+
+LaTeX Warning: Hyper reference `acro:LIDAR' on page 22 undefined on input line 
+1065.
+
+
+LaTeX Warning: Hyper reference `acro:LIDAR' on page 22 undefined on input line 
+1065.
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1066.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1066.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[22] (/usr/local/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/02/21 1.10 listings language file
+)
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1095.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1095.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[23]
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1108.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1108.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[24
+
+]
+<imgs/c2_donkey_car-2.png, id=488, 765.6103pt x 561.89925pt>
+File: imgs/c2_donkey_car-2.png Graphic file (type png)
+<use imgs/c2_donkey_car-2.png>
+Package pdftex.def Info: imgs/c2_donkey_car-2.png  used on input line 1112.
+(pdftex.def)             Requested size: 537.75343pt x 394.69003pt.
+
+
+LaTeX Warning: Float too large for page by 0.03635pt on input line 1115.
+
+[25 <./imgs/c2_donkey_car-2.png>]
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1239.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1239.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[26
+
+
+] (./guide.brf)
+\tf@brf=\write11
+\openout11 = `guide.brf'.
+
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1257.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1257.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[27]
+<assessment_report.pdf, id=562, 614.295pt x 794.97pt>
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf>
+Package pdftex.def Info: assessment_report.pdf  used on input line 1262.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf>
+Package pdftex.def Info: assessment_report.pdf  used on input line 1262.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+<assessment_report.pdf, id=565, page=1, 614.295pt x 794.97pt>
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 1>
+Package pdftex.def Info: assessment_report.pdf , page1 used on input line 1262.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 1>
+Package pdftex.def Info: assessment_report.pdf , page1 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 1262.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 1262.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[28]
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 1>
+Package pdftex.def Info: assessment_report.pdf , page1 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 1>
+Package pdftex.def Info: assessment_report.pdf , page1 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 1>
+Package pdftex.def Info: assessment_report.pdf , page1 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [29
+
+ <./assessment_report.pdf>]
+<assessment_report.pdf, id=586, page=2, 614.295pt x 794.97pt>
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 2>
+Package pdftex.def Info: assessment_report.pdf , page2 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 2>
+Package pdftex.def Info: assessment_report.pdf , page2 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+File: assessment_report.pdf Graphic file (type pdf)
+<use assessment_report.pdf, page 2>
+Package pdftex.def Info: assessment_report.pdf , page2 used on input line 1262.
+
+(pdftex.def)             Requested size: 491.43666pt x 635.97687pt.
+ [30
+
+ <./assessment_report.pdf>])
+No file guide.gls.
+No file guide.acr1.
+File: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf Graphic file (type pdf)
+<use imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf>
+Package pdftex.def Info: imgs/logo_ENSTA_Bretagne_Vertical_CMJN.pdf  used on in
+put line 138.
+(pdftex.def)             Requested size: 23.6136pt x 28.45274pt.
+File: imgs/tu_wien.jpeg Graphic file (type jpg)
+<use imgs/tu_wien.jpeg>
+Package pdftex.def Info: imgs/tu_wien.jpeg  used on input line 138.
+(pdftex.def)             Requested size: 56.90189pt x 28.45274pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.53278pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.53278pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.53278pt}.
+
+[31
+
+]
+No file guide.bbl.
+(./guide.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `guide.out' has not changed.
+(rerunfilecheck)             Checksum: 278D802C6465D0A76187FB049592E455;3057.
+Package rerunfilecheck Info: File `guide.brf' has not changed.
+(rerunfilecheck)             Checksum: 2090CC93F04E73FC0046670B9BF0DA87;269.
+ ) 
+Here is how much of TeX's memory you used:
+ 44188 strings out of 474116
+ 847922 string characters out of 5743682
+ 1953187 words of memory out of 5000000
+ 65350 multiletter control sequences out of 15000+600000
+ 681340 words of font info for 228 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 114i,18n,131p,2386b,886s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texliv
+e/2024/texmf-dist/fonts/type1/public/lm/lmbx7.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2024/texmf-dist/font
+s/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/p
+ublic/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/l
+mmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi5.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/202
+4/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dis
+t/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/typ
+e1/public/lm/lmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm
+/lmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb></
+usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/
+texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/20
+24/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2024/texmf-di
+st/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
+ype1/public/lm/lmtt12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/publi
+c/tipa/tipa10.pfb>
+Output written on guide.pdf (35 pages, 28086557 bytes).
+PDF statistics:
+ 763 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 75157 words of extra memory for PDF output out of 89155 (max. 10000000)
+

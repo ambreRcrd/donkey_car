@@ -1,0 +1,47 @@
+% chercher des documents LaTeX dans styles, corps et bib
+\makeatletter\def\input@path{{styles/}{corps/}{bib/}}\makeatother
+
+\documentclass[a4paper]{report}
+
+\usepackage[a4paper,vdivide={*,22cm,4cm}]{geometry}
+\usepackage[french]{babel} % style francais
+\usepackage{pageGardeEnsta}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc} % pour taper les accents directement
+% pour charger des images
+\usepackage{graphicx}
+% repertoire dans lequel trouver les images
+\graphicspath{{imgs/}}
+% liens hypertexte dans le document
+\usepackage[colorlinks,breaklinks]{hyperref}
+
+
+\title{Gestion de données géographiques}
+\author{Rodéric \textsc{Moitié}\\
+  \texttt{roderic.moitie@ensta-bretagne.fr}}
+\date{\today}
+\doctype{Support de cours}
+\promo{UV 4.7}
+\etablissement{\textsc{Ensta} Bretagne\\2, rue François Verny\\
+  29806 \textsc{Brest} cedex\\\textsc{France}\\Tel +33 (0)2 98 34 88 00\\ \url{www.ensta-bretagne.fr}}
+\logoEcole{\includegraphics[height=4.2cm]{logo_ENSTA_Bretagne_Vertical_CMJN}}
+\imgGarde{\centering\includegraphics[height=7cm]{logo_gebco0}\hspace{1cm}\includegraphics[height=7cm]{logo_gebco0_eu}}
+
+
+\usepackage{lipsum} % pour generer du texte
+
+\begin{document}
+
+% creer le titre ici
+\maketitle
+
+% generation de texte aléatoire
+\lipsum
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

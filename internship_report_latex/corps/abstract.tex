@@ -1,0 +1,36 @@
+\selectlanguage{english}
+\section*{\small Abstract}
+\small
+This project focuses on automating a small-scale model car to navigate a fixed circuit using only a camera for guidance. The objective is for the car to follow a track centered between two guiding lines. The circuit used in reality is also available in simulation, allowing for process validation before testing in a real environment where significant visual noise may be present.
+
+A crucial initial step is to examine the system specifications and camera limitations to anticipate all possible scenarios, thereby ensuring that the developed controllers are robust. Depending on the car's position and orientation relative to the track, it may detect both lines, only one line, or even none. Therefore, the system must be able to handle each of these situations effectively.
+
+The process begins with image processing, where the visible lines are detected to determine the car's orientation and desired future position. With this information in hand, the next step is to address vehicle control. This requires establishing the car's kinematic model, which involves defining a projection frame and understanding how the system inputs relate to the vehicle's kinematics.
+
+Initially, a simple Proportional-Integral-Derivative (\acs{PID}) controller is implemented. While this provides a good starting point, it is inherently limited as it only accounts for past positions. To improve system robustness, a stochastic Model Predictive Control (\acs{MPC}) algorithm is introduced, enabling for the prediction of future trajectories and more effective decision-making.
+
+
+\section*{\small R\'esum\'e}
+Ce projet se concentre sur l'automatisation d'une voiture miniature naviguant sur un circuit fixe, en utilisant une cam\'era comme unique capteur. L'objectif est que la voiture suive une piste d\'elimit\'ee par deux lignes continues. Le circuit r\'eel est \'egalement disponible en simulation, permettant de valider les traitements avant de les tester dans l'environnement r\'eel, o\`u le bruit visuel est significatif.
+
+La premi\`ere \'etape consiste \`a examiner les sp\'ecifications du syst\`eme et les limitations de la cam\'era afin d'anticiper tous les sc\'enarios possibles, assurant ainsi la robustesse des contr\^oleurs d\'evelopp\'es. Selon la position et l'orientation de la voiture par rapport \`a la piste, celle-ci peut d\'etecter les deux lignes, une seule ligne, ou aucune. Le syst\`eme doit donc \^etre capable de g\'erer efficacement chacune de ces situations.
+
+Vient ensuite le traitement des images de la cam\'era pour identifier les lignes visibles, permettant ainsi de d\'eterminer la position et l'orientation futures de la voiture. Avec ces informations, on aborde le contr\^ole du v\'ehicule, ce qui n\'ecessite d'\'etablir le mod\`ele cin\'ematique de la voiture, incluant la d\'efinition d'un rep\`ere de projection et la compr\'ehension de la relation entre les entr\'ees et le mouvement du v\'ehicule.
+
+Initialement, un contr\^oleur Proportionnel-Int\'egral-D\'eriv\'e (\acs{PID}) simple est mis en \oe uvre. Bien que cela constitue un bon point de d\'epart, il pr\'esente des limitations intrins\`eques, car il ne prend en compte que les positions pass\'ees de la voiture. Pour am\'eliorer la robustesse du syst\`eme, un algorithme de contr\^ole pr\'edictif bas\'e sur une commande pr\'edictive (\acs{MPC}) est introduite, permettant de pr\'evoir les trajectoires futures et de prendre des d\'ecisions plus efficaces.
+
+
+
+\section*{Keywords}
+Autonomous Car, Camera, Image Processing, Line Following, \acs{PID} Control, \acs{MPC} Control.
+
+
+
+\section*{Acknowledgements}
+
+I would like to express my deepest gratitude to Alexander Watcher and Gerald Ebmer for their invaluable assistance in helping me initiate this project. Their unwavering support and guidance have been instrumental in my progress, as they were always available to answer my questions and provide clarity. I am also profoundly thankful to my internship supervisor, Minh Nhat Vu, whose supervision and insightful advice have been pivotal to the successful completion of this project. Thank you for your dedicated mentorship and continuous encouragement.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../guide"
+%%% End: 
